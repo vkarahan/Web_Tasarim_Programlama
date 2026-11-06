@@ -1,0 +1,17 @@
+table{
+    border-spacing: 0;
+    border: 1px solid #095a02;
+}
+thead{
+    
+    background-color: rgb(32, 32, 31);
+    color: #ffffff;
+}
+
+tbody{
+    
+    background-color: rgb(155, 34, 94);
+}
+td{
+    padding: 5px;
+}

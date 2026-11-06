@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="#" method="post">
+        
+      
+        <h3>Aday Kayıt Formu</h3>
+        <hr color="#e0e0e0" size="1" width="700" align="left">
+
+       
+        <table border="0" cellpadding="5" cellspacing="0" width="60%">
+            <tr>
+                <td align="right" width="20%">Adı</td>
+                <td width="30%">
+                    <input type="text" name="adi" placeholder="Adı" style="width: 100%;">
+                </td>
+                <td align="right" width="20%">Soyadı</td>
+                <td width="30%">
+                    <input type="text" name="soyadi" placeholder="Soyadı" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Cinsiyet</td>
+                <td>
+                    <select name="cinsiyet" style="width: 100%;">
+                        <option value="Bay" selected>Bay</option>
+                        <option value="Bayan">Bayan</option>
+                    </select>
+                </td>
+                <td align="right">Doğum Tarihi</td>
+                <td>
+                    <input type="date" name="dogum_yeri"  style="width: 100%;">
+                </td>
+            </tr>
+            
+        </table>
+
+        <br>
+
+        
+        <h3>Adres Bilgileri</h3>
+        <hr color="#e0e0e0" size="1" width="700" align="left">
+
+       
+        <table border="0" cellpadding="5" cellspacing="0" width="60%">
+            <tr>
+                <td align="right" width="20%">Adres(1)</td>
+                <td colspan="3">
+                    <input type="text" name="adres1" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Adres(2)</td>
+                <td colspan="3">
+                    <input type="text" name="adres2" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="20%">Şehir</td>
+                <td width="30%">
+                    <input type="text" name="sehir" style="width: 100%;">
+                </td>
+                <td align="right" width="20%">Semt/İlçe</td>
+                <td width="30%">
+                    <input type="text" name="semt_ilce" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Posta Kodu</td>
+                <td>
+                    <input type="text" name="posta_kodu" style="width: 100%;">
+                </td>
+                <td align="right">Ülke</td>
+                <td>
+                    <select name="ulke" style="width: 100%;">
+                        <option value="Türkiye" selected>Türkiye</option>
+                        <option value="Diğer">Diğer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3">
+                    <br>
+                    <input type="submit" value="Kaydet">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

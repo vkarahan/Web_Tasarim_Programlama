@@ -1,0 +1,16 @@
+div{
+    background-color: #6a63ac; /*zemin rengi*/
+    width: 400px; /*genişlik*/
+    height: 350px; /*yükseklik*/
+    margin-top: 50px; /*dış boşluk margin veya margin-top gibi ayrı yapılabilir*/
+    margin-left: 25px;
+    padding-left: 30px;  /*iç boşluk*/
+    border: 5px solid #0000ff ; /*genişlik stil renk*/
+    /* border-bottom: 5px solid #000000 ; */
+    border-radius: 50px ; /*Köşe yuvarlaklık 10px 0px 10px 0px ayrı ayrı*/ 
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
